@@ -1,0 +1,411 @@
+repo_name: fairushyn/AspNetCore2CoreUI
+report_id: 6a9db803de24e5f6f212fb30a9b05bf4
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-13T18:01:44+00:00'
+requested_by: mvelosop
+provider: github
+branch: master
+detected_tools_count: 30
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI.Mvc/CoreUI.Mvc.csproj
+  detection_source: src/CoreUI.Mvc/CoreUI.Mvc.csproj
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2018-04-25 18:53:18.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '2.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI.Mvc/CoreUI.Mvc.csproj
+  detection_source: src/CoreUI.Mvc/CoreUI.Mvc.csproj
+  last_updated_by: Ronan Farrell
+  last_updated_on: 2019-01-16 21:53:05.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '2.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI.Mvc/CoreUI.Mvc.csproj
+  detection_source: src/CoreUI.Mvc/CoreUI.Mvc.csproj
+  last_updated_by: Ronan Farrell
+  last_updated_on: 2019-01-16 21:53:05.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 2.7.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-03 23:20:01.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI.Mvc/CoreUI.Mvc.csproj
+  detection_source: src/CoreUI.Mvc/CoreUI.Mvc.csproj
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2018-04-25 18:53:18.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/AspNetCore21CoreUI2.sln
+  detection_source: AspNetCore21CoreUI2.sln
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2018-04-25 18:53:18.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 3.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.18.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: font-awesome
+  description: The iconic font and CSS framework
+  package_url: https://www.npmjs.com/font-awesome
+  version: 4.7.0
+  license: OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16160/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: gulp-autoprefixer
+  description: Prefix CSS
+  package_url: https://www.npmjs.com/gulp-autoprefixer
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16090/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: gulp-concat
+  description: Concatenates files
+  package_url: https://www.npmjs.com/gulp-concat
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15973/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: gulp-cssmin
+  description: Minify css using gulp
+  package_url: https://www.npmjs.com/gulp-cssmin
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16629/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: gulp-filter
+  description: Filter files in a `vinyl` stream
+  package_url: https://www.npmjs.com/gulp-filter
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16385/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: gulp-replace
+  description: A string replace plugin for gulp
+  package_url: https://www.npmjs.com/gulp-replace
+  version: 0.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16150/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: gulp-sass
+  description: Gulp plugin for sass
+  package_url: https://www.npmjs.com/gulp-sass
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16002/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: gulp-uglify
+  description: Minify files with UglifyJS
+  package_url: https://www.npmjs.com/gulp-uglify
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15910/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: require-dir
+  description: Helper to require
+  package_url: https://www.npmjs.com/require-dir
+  version: 0.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16293/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: run-sequence
+  description: Run a series of dependent gulp tasks in order
+  package_url: https://www.npmjs.com/run-sequence
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16004/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI/package-lock.json
+  detection_source: src/CoreUI/package.json
+  last_updated_by: Miguel Veloso
+  last_updated_on: 2017-11-01 20:21:16.000000000 Z
+- name: Microsoft.AspNetCore.App
+  description: Provides a default set of APIs for building an ASP.NET Core application
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.App
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13005/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI.Mvc/CoreUI.Mvc.csproj
+  detection_source: src/CoreUI.Mvc/CoreUI.Mvc.csproj
+  last_updated_by: Ronan Farrell
+  last_updated_on: 2019-01-16 21:53:05.000000000 Z
+- name: Microsoft.VisualStudio.Web.CodeGeneration.Design
+  description: Code Generation tool for ASP.NET Core
+  package_url: https://www.nuget.org/Microsoft.VisualStudio.Web.CodeGeneration.Design
+  version: 2.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13477/default_eb78542773998d1500f13778aa04738ef49376bd.png
+  detection_source_url: https://github.com/fairushyn/AspNetCore2CoreUI/blob/master/src/CoreUI.Mvc/CoreUI.Mvc.csproj
+  detection_source: src/CoreUI.Mvc/CoreUI.Mvc.csproj
+  last_updated_by: Ronan Farrell
+  last_updated_on: 2019-01-16 21:53:05.000000000 Z
